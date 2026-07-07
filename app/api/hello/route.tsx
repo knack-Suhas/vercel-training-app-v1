@@ -1,4 +1,4 @@
-export async function GET(request) {
+export async function GET() {
   const data = {
     message: "Hello from a Vercel Serverless Function!",
     timestamp: new Date().toISOString(),
