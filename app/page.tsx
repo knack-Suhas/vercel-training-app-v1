@@ -4,8 +4,12 @@ export default function Home() {
   return (
     <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <img src="/logo.jpeg" alt="Logo" width={100} height={100} />
-        
+        <Image
+          src="/logo.jpeg"
+          alt="Logo"
+          width={100}
+          height={100}
+        />
         <div style={{ background: '#0070f3', color: 'white', padding: '20px', borderRadius: '8px' }}>
           <h2>New Feature: Hero Banner</h2>
           <p>This is being reviewed in a Preview Deployment!</p>
